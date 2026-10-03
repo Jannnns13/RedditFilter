@@ -34,7 +34,7 @@ jobs:
           sudo apt install -y rsync
 
       - name: Setup theos
-        uses: level3tjg/theos-action@master
+        uses: level3tjg/theos-action@main
         with:
           cache: true
           cache-dir-theos: ${{ github.workspace }}/theos
